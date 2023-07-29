@@ -3,8 +3,8 @@ import time
 
 user_prompt = "Type a new todo or show, edit, complete, or exit: "
 now = time.strftime("%b %d, %Y, %H:%M:%S")
-
 print("It is", now)
+
 while True:
     # Get user input and strip characters
     user_action = input(user_prompt)
